@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana's Website</title>
+    <style>
+        .profile-image {
+            width: 200px;
+            border-radius: 50%;
+        }
+        .left-panel{
+            background-color: aquamarine;
+            width: 300px;
+            padding: 20px;
+        }
+        .right-panel{
+            background-color: rgb(72, 139, 0);
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-justify-space-between{
+            justify-content: space-between;
+        }
+    </style>
+
+<body>
+    <main class="flex-container">
+        <div class="left-panel">
+            <header>
+                <h2>Ana Vaka - Resume</h2>
+                <img class="profile-image"
+                    src="https://www.shutterstock.com/image-photo/profile-picture-smiling-indian-young-260nw-1779265490.jpg">
+                <h4>Web Developer</h4>
+            </header>
+            <div>
+                <h3>Personal info</h3>
+                <h5>Phone</h5>
+            </div>
+            <div>
+                <h3>Skills</h3>
+                <div class="flex-container flex-justify-space-between"> 
+                    <span>HTML </span>
+                    <span>intermediate</span>
+                </div>
+                <div class="flex-container flex-justify-space-between"> 
+                    <span>HTML </span>
+                    <span>intermediate</span>
+                </div>
+                <div class="flex-container flex-justify-space-between"> 
+                    <span>HTML </span>
+                    <span>intermediate</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-panel">
+            This is the right panel
+            <hr> 
+        </div>
+
+    </main>
+
+</body>
+
+</html>
